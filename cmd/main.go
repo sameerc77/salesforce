@@ -8,5 +8,5 @@ import (
 )
 
 func main() {
-	fmt.Println(connection.GetSalesforceConn(), db.GetConnection())
+	fmt.Println(connection.GetSalesforceConn(), db.GetConnection(), logeer.Getlog())
 }
