@@ -1,5 +1,5 @@
 package logger
 
-func Getlog() String {
+func Getlog() string {
 	return "get logging"
 }
